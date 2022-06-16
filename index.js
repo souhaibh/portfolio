@@ -1,4 +1,4 @@
-fetch("https://souhaib-haydar.herokuapp.com/experiences")
+fetch("https://souhaib-node-mailer.herokuapp.com/experiences")
   .then((response) => response.json())
   .then((json) => {
     EperiencesTitle = document.getElementById("experiences");
