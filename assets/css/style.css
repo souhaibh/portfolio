@@ -1058,3 +1058,14 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.ImgProf{
+  width: 90%;
+  border-radius: 15px;
+  margin-left: 10%;
+}
+@media only screen and (max-width:768px){
+  .ImgProf{
+  margin-left: 5%;
+  }
+}
