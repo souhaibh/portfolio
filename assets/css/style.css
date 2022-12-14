@@ -4,7 +4,7 @@
   --GreyMain:#272829;
   --BlueHover:#067ded;
   --WhiteMain:#fff;
-  --BackgrounBlue:#0678e3;
+  --BackgoundBlue:#0678e3;
   --NavMain:#45505b;
 }
 /*--------------------------------------------------------------
@@ -51,8 +51,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: var(--BackgoundBlue);
-  color: var(--WhiteMain);
+  background: var(--WhiteMain);
+}
+.back-to-top:hover i {
+  color: var(--BackgoundBlue);
+
 }
 .back-to-top.active {
   visibility: visible;
@@ -1048,9 +1051,12 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: var(--BackgoundBlue);
-  color: var(--WhiteMain);
+  background: var(--WhiteMain);
   text-decoration: none;
+}
+#footer .social-links a:hover i {
+  color: var(--BackgoundBlue);
+  
 }
 #footer .copyright {
   margin: 0 0 5px 0;
