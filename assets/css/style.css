@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero_bg.JPG") top right no-repeat;
+  background: url("../img/landscape3.jpg") top right no-repeat;
   
   background-size: cover;
   position: relative;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+.hero_section,.about,.skills,.resume {
   padding: 60px 0;
   overflow: hidden;
 }
@@ -1076,6 +1076,15 @@ section {
   }
 }
 
-/* card start */
+/* Projets section start */
+.projets_section{
+  background-image: url(../img/LaptopBg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-/* card end */
+/* Projets section end */
+
