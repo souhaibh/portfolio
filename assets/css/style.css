@@ -1072,11 +1072,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media only screen and (max-width:768px){
   .ImgProf{
-  margin-left: 5%;
+    margin-left: 5%;
   }
 }
 
 /* Projets section start */
+/* _carousel.scss:75 */
+@media only screen and (max-width:768px){
+
+  #projects{
+    height: auto !important;
+  }
+}
+#projects{
+  height: 100vh;
+  background-color: #b8cfd4;
+}
+
+.carousel-fade 
+  .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+  }
+  .carousel-fade
+  .carousel-item.active,
+  .carousel-fade .carousel-item-next.carousel-item-left,
+  .carousel-fade .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+  }
+
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-right {
+    opacity: 0;
+  }
+
+  .carousel-fade .carousel-item-next,
+  .carousel-fade .carousel-item-prev,
+  .carousel-fade .carousel-item.active,
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-prev {
+    transform: translateX(0);
+
+    @supports (transform-style: preserve-3d) {
+      transform: translate3d(0, 0, 0);
+    }
+  }
 
 /* Projets section end */
 
