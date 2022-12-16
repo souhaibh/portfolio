@@ -1086,7 +1086,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #projects{
   height: 100vh;
-  background-color: #b8cfd4;
+  /* background-color: #98b4b7; */
 }
 
 .carousel-fade 
