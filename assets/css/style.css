@@ -1055,8 +1055,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 #footer .social-links a:hover i {
-  color: var(--BackgoundBlue);
-  
+  color: var(--BackgoundBlue);}
+  #footer .container h3{
+    margin-top:1rem !important;
 }
 #footer .copyright {
   margin: 0 0 5px 0;
